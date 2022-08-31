@@ -1,0 +1,18 @@
+Package: stat1080r
+Type: Package
+Title: Functions and datasets for STAT 1080: Foundations of Data Science
+Version: 0.1.0
+Author: Brennan Bean
+Maintainer: Brennan Bean <brennan.bean@usu.edu>
+Description: This package provides companion materials for the course 
+    STAT 1080: Foundations of Data Science. Materials include datasets for 
+    homework assignments, as well as helpful functions and datasets for 
+    in-class assignments. Users should expect regular updates to this package
+    and should re-install it prior to completing any in-class or homework 
+    assignment. 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.1
