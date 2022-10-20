@@ -54,3 +54,26 @@
 #' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#miles-per-gallon}
 "mpg_hawkes"
 
+#' Utah Design Snow Loads
+#'
+#' Reliability-targeted design snow loads for the state of Utah.
+#'   A design snow load is the pressure
+#'   exerted by accumulated snow that a building needs to be able to withstand
+#'   in order to prevent collapse.
+#'
+#' @format A data.frame with 257 rows and 6 columns
+#' \describe{
+#'   \item{name}{name of the weather station at which the measurements
+#'   were recorded}
+#'   \item{latitude}{decimal degrees latitude (geographic location)}
+#'   \item{longitude}{decimal degrees longitude}
+#'   \item{elevation}{altitude of the station, measured in feet}
+#'   \item{eco_region}{the level I ecological region as defined by the
+#'   U.S. Environmental Protection Agency}
+#'   \item{load}{the design snow load, measured in pounds per square foot (psf)}
+#' }
+#'
+#'
+#' @source \url{https://doi.org/10.26077/200k-pr86}
+"rt_load_ut"
+
