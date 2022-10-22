@@ -24,7 +24,6 @@
 #'   \item{Cup}{number of cups in one serving}
 #' }
 #'
-#'
 #' @source \url{https://www.hawkeslearning.com/Statistics/beg3/datasets.html}
 #' @source \url{https://www.kaggle.com/jeandsantos/breakfast-cereals-data-analysis-and-clustering}
 "cereal"
@@ -49,7 +48,6 @@
 #'   \item{year}{model year}
 #' }
 #'
-#'
 #' @source \url{https://www.seattlecentral.edu/qelp/sets/057/057.html}
 #' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#miles-per-gallon}
 "mpg_hawkes"
@@ -73,7 +71,40 @@
 #'   \item{load}{the design snow load, measured in pounds per square foot (psf)}
 #' }
 #'
-#'
 #' @source \url{https://doi.org/10.26077/200k-pr86}
 "rt_load_ut"
+
+#' Medical statistics for a sample of 100 patients from a hospital.
+#'
+#' @format A data.frame with 100 rows and 8 columns
+#' \describe{
+#'   \item{id}{patient id number}
+#'   \item{gender}{patient gender (dichotomous)}
+#'   \item{marital_status}{one of married (M), widowed (W), divorced (D) or
+#'   single (S)}
+#'   \item{age}{patient age}
+#'   \item{weight}{patient weight in pounds}
+#'   \item{cholesterol}{patient total cholesterol}
+#'   \item{blood_pressure}{patient systolic blood pressure in mmHg}
+#'   \item{cohort}{patients separated by decade of age}
+#' }
+#'
+#' @source \url{https://www.hawkeslearning.com/Statistics/beg3/dataset-descriptions.html#decreases-in-cholesterol-levels}
+"patient_hawkes"
+
+#' Post election survey of 7606 voters in the 2016 US Presidential Election.
+#'
+#' @format A data.frame with 7606 rows and 6 columns.
+#' \describe{
+#'   \item{id}{voter id}
+#'   \item{weight}{a weight based on the estimated representative-ness of the
+#'   voter in relation to the overall population}
+#'   \item{vote_method}{either by mail or in person}
+#'   \item{vote}{either Clinton, Trump, or "Other" for all other candidates}
+#'   \item{income}{voter's self-identified income bracket}
+#'   \item{news}{voter's self-reported interest in the daily news}
+#' }
+#'
+#' @source \url{https://www.kaggle.com/datasets/democracy-fund/2016-voter-survey?resource=download}
+"election_survey_2016"
 
