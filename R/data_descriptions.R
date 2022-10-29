@@ -108,3 +108,27 @@
 #' @source \url{https://www.kaggle.com/datasets/democracy-fund/2016-voter-survey?resource=download}
 "election_survey_2016"
 
+#' A sample of data collected on Darwin's finches on Daphe Major island.
+#'
+#' @format A data.frame with 100 rows and 11 columns.
+#' \describe{
+#'   \item{band}{Refers to an individual's identity, more specifically, the
+#'   number on a metal leg band it was given}
+#'   \item{species}{Species name}
+#'   \item{sex}{Male, female, or unknown. The reason for the "unknown" category
+#'   is that males start their lives looking like females. After one or more
+#'   years they molt into a plumage with some black feathering that indicates
+#'   they are males}
+#'   \item{first_adult_year}{The year after the individual hatched from an egg}
+#'   \item{last_year}{The last year of that individual's life}
+#'   \item{weight}{Weight, in grams}
+#'   \item{wing}{Wing length, in millimeters}
+#'   \item{tarsus}{Tarsus length (part of leg), in millimeters}
+#'   \item{beak_length}{Beak length, in millimeters}
+#'   \item{beak_depth}{Beak depth, in millimeters}
+#'   \item{beak_width}{Beak width, in millimeters}
+#' }
+#'
+#' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#finch-data}
+"finch_hawkes"
+
