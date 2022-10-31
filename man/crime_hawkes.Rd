@@ -12,7 +12,7 @@ A data.frame with 50 rows and 5 columns.
   years with a regular high school diploma divided by the number of students
   who form the adjusted cohort for the graduating class.” This number has
   been rounded to the nearest whole number.}
-  \item{crime}{Species namRate of violent and property crimes per
+  \item{crime}{Rate of violent and property crimes per
   100,000 people}
   \item{crime}{Rate of violent crimes (murder, rape, robbery,
   aggravated assault) per 100,000 people}

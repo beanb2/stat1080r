@@ -153,7 +153,7 @@
 #'   years with a regular high school diploma divided by the number of students
 #'   who form the adjusted cohort for the graduating class.” This number has
 #'   been rounded to the nearest whole number.}
-#'   \item{crime}{Species namRate of violent and property crimes per
+#'   \item{crime}{Rate of violent and property crimes per
 #'   100,000 people}
 #'   \item{crime}{Rate of violent crimes (murder, rape, robbery,
 #'   aggravated assault) per 100,000 people}
@@ -162,3 +162,48 @@
 #'
 #' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#high-school-completion-and-crime-rate}
 "crime_hawkes"
+
+#' Data regarding campus crime.
+#'
+#' @format A data.frame with 20 rows and 4 columns.
+#' \describe{
+#'   \item{crimes}{The number of crimes as applicable to the school}
+#'   \item{police}{Number of police officers at the school}
+#'   \item{enrolled}{Total number of students enrolled at the school}
+#'   \item{private}{Private school (1), and others (0).}
+#' }
+#'
+#' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#campus-crime}
+"campus_crime_hawkes"
+
+#' Data regarding campus crime.
+#'
+#' @format A data.frame with 15,000 rows and 12 columns.
+#' \describe{
+#'   \item{employee_id}{The ID number associated with the individual employee}
+#'   \item{satisfaction_level}{How satisfied the employee is in their position
+#'   (scale of 0 to 1)}
+#'   \item{last_evaluation_score}{How management rated employee performance
+#'   during the last evaluation (scale of 0 to 1)}
+#'   \item{number_of_projects}{The number of projects an employee is currently
+#'   working on}
+#'   \item{average_monthly_hours}{he average number of hours the employee works
+#'   in a month}
+#'   \item{years_spent_at_company}{The number of years the employee has worked
+#'   at the company}
+#'   \item{work_accident}{A binary variable that indicates whether the employee
+#'   experienced an accident at work}
+#'   \item{left_company}{A binary variable that indicates whether an employee
+#'   left the company}
+#'   \item{promotion_in_last_5_years}{A binary variable that indicates whether
+#'   an employee received a promotion in the last 5 years}
+#'   \item{department}{The department that the employee works in}
+#'   \item{salary}{The level of the employee’ s salary(low, medium, high)}
+#'   \item{salary_range}{The dollar range for the salary levels}
+#' }
+#'
+#' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#employee-satisfaction}
+#' @source \url{https://www.kaggle.com/ludobenistant/hr-analytics}
+"satisfy_hawkes"
+
+
