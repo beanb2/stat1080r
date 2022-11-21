@@ -237,4 +237,40 @@
 #' @source \url{https://www.kaggle.com/ludobenistant/hr-analytics}
 "satisfy_hawkes"
 
-
+#' Mount Pleasant Real estate.
+#'
+#' Information about properties for sale in three subdivisions of Mount
+#'   Pleasant, South Carolina, in the year 2017.
+#'
+#' @format A data.frame with 245 rows and 24 columns.
+#' \describe{
+#'   \item{id}{Property ID number}
+#'   \item{price}{Asking price in dollars}
+#'   \item{duplex}{Is the property a duplex?}
+#'   \item{bedrooms}{Number of bedrooms}
+#'   \item{baths_total}{baths_full + baths_half}
+#'   \item{baths_full}{Number of full bathrooms}
+#'   \item{baths_half}{Number of half bathrooms}
+#'   \item{stories}{Number of stories}
+#'   \item{Subdivision}{Name of the subdivision the property is
+#'   located in}
+#'   \item{sqrt}{Estimated floor area inside the house}
+#'   \item{year}{The year the house was constructed}
+#'   \item{acres}{The size of the lot in acres}
+#'   \item{new}{Has the house been lived in previously?}
+#'   \item{style}{The style of the house}
+#'   \item{garage}{Number of covered parking spots on the property}
+#'   \item{misc}{Miscellaneous exterior features (text string)}
+#'   \item{pool}{Does the home have a private pool?}
+#'   \item{dock}{Does the home have a private dock?}
+#'   \item{fence}{Does the home have a fenced yard?}
+#'   \item{porch}{Does the home have a screened porch?}
+#'   \item{Amenities}{Text screen of other amenities associated with the
+#'   property}
+#'   \item{golf_course}{Is the home located on a golf course?}
+#'   \item{fireplace}{Does the home have a fireplace?}
+#'   \item{num_fireplace}{Number of fireplaces}
+#' }
+#'
+#' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#mount-pleasant-real-estate}
+"housing_hawkes"
