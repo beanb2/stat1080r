@@ -274,3 +274,18 @@
 #'
 #' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#mount-pleasant-real-estate}
 "housing_hawkes"
+
+#' NCAA Women's Cross Country Championship Run Times
+#'
+#' Contains the run times for women who recorded valid run times in both the
+#'   2021 and 2022 NCAA National Championship Meets.
+#'
+#' @format A data.frame with 98 rows and 3 columns.
+#' \describe{
+#'   \item{name}{The name of the athlete}
+#'   \item{final_2021}{The 6k run time in seconds for the 2021 meet}
+#'   \item{final_2022}{The 6k run time in seconds for the 2022 meet}
+#' }
+#'
+#' @source \url{https://xc.tfrrs.org/results_search.html}
+"ncaa_times"
