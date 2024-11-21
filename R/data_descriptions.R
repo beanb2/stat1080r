@@ -180,15 +180,15 @@
 #'
 #' @format A data.frame with 50 rows and 5 columns.
 #' \describe{
-#'   \item{state}{The 4-year ACGR is the number of students who graduate in 4
-#'   years with a regular high school diploma divided by the number of students
-#'   who form the adjusted cohort for the graduating class.” This number has
-#'   been rounded to the nearest whole number.}
-#'   \item{crime}{Rate of violent and property crimes per
-#'   100,000 people}
-#'   \item{crime}{Rate of violent crimes (murder, rape, robbery,
+#'   \item{state}{U.S. State}
+#'   \item{completion}{The 4-year ACGR is the number of students who graduate
+#'   in 4 years with a regular high school diploma divided by the number
+#'   of students who form the adjusted cohort for the graduating class.”
+#'   This number has been rounded to the nearest whole number.}
+#'   \item{crime}{Rate of violent and property crimes per 100,000 people}
+#'   \item{violent}{Rate of violent crimes (murder, rape, robbery,
 #'   aggravated assault) per 100,000 people}
-#'   \item{property}{Rate of property crimes per 100,000}
+#'   \item{property}{Rate of property crimes per 100,000 people}
 #' }
 #'
 #' @source \url{https://www.hawkeslearning.com/Statistics/dataset-descriptions.html#high-school-completion-and-crime-rate}
